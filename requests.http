@@ -1,0 +1,11 @@
+###
+
+# curl --location 'localhost:9000/v1'
+GET localhost:9000/v1
+
+###
+
+# curl --location --request POST 'localhost:9000/v1'
+POST localhost:9000/v1
+
+###
