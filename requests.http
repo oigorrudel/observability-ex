@@ -1,11 +1,14 @@
 ###
 
-# curl --location 'localhost:9000/v1'
+# GET via Feign
 GET localhost:9000/v1
 
 ###
 
-# curl --location --request POST 'localhost:9000/v1'
+# Send event Kafka
 POST localhost:9000/v1
 
 ###
+
+# GET via RestTemplate
+GET localhost:9000/v2
